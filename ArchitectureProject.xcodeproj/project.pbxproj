@@ -16,7 +16,7 @@
 		2E56C63B1B29E7EF0002278E /* ArchitectureProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C63A1B29E7EF0002278E /* ArchitectureProjectTests.m */; };
 		2E56C6491B29EB540002278E /* ArchitectureProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6451B29EB540002278E /* ArchitectureProject.xcdatamodeld */; };
 		2E56C64A1B29EB540002278E /* MagicalRecordWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6481B29EB540002278E /* MagicalRecordWorkaround.m */; };
-		3C6CFB2CAF3B5F0F89D76027 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1B0527948982031AE96D2E /* libPods.a */; };
+		75D1025FF309AB9B73366F7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1B0527948982031AE96D2E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6CFB2CAF3B5F0F89D76027 /* libPods.a in Frameworks */,
+				75D1025FF309AB9B73366F7E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -409,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

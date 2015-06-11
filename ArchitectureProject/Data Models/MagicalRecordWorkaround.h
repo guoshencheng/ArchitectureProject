@@ -14,10 +14,4 @@
 
 @end
 
-@interface NSPersistentStoreCoordinator (MagicalRecordWorkaround)
-
-- (NSPersistentStore *) MRWR_addAutoMigratingSqliteStoreNamed:(NSString *) storeFileName;
-
-@end
-
 
