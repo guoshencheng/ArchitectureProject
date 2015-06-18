@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ApiService.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ApiServiceDelegate>
 
 
 @end
