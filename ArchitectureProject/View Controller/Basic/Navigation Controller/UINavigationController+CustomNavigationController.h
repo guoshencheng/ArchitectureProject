@@ -16,7 +16,5 @@
 - (void)fadePushViewController:(UIViewController *)viewController;
 - (void)fadePopViewController;
 - (void)pushViewControllerFromRight:(UIViewController*)viewController;
-- (void)zoomInPushController:(UIViewController *)controller;
-- (void)zoomOutPopController:(UIViewController *)controller andView:(UIView *)view andFrame:(CGRect)frame;
 
 @end
