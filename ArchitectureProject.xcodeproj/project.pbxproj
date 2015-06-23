@@ -22,6 +22,10 @@
 		2E3688D91B3947BC00359000 /* DemoOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3688D71B3947BC00359000 /* DemoOneViewController.xib */; };
 		2E3688DD1B3947D700359000 /* DemoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688DB1B3947D700359000 /* DemoTwoViewController.m */; };
 		2E3688DE1B3947D700359000 /* DemoTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3688DC1B3947D700359000 /* DemoTwoViewController.xib */; };
+		2E3688E11B394FFA00359000 /* UIAlertView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E01B394FFA00359000 /* UIAlertView+Utility.m */; };
+		2E3688E41B39524100359000 /* UITextField+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E31B39524100359000 /* UITextField+Utility.m */; };
+		2E3688E71B3953A900359000 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E61B3953A900359000 /* UIImage+Utility.m */; };
+		2E3688EA1B3953EE00359000 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E91B3953EE00359000 /* UIColor+Utility.m */; };
 		2E56C61E1B29E7EE0002278E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C61D1B29E7EE0002278E /* main.m */; };
 		2E56C6211B29E7EE0002278E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6201B29E7EE0002278E /* AppDelegate.m */; };
 		2E56C62C1B29E7EE0002278E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C62B1B29E7EE0002278E /* Images.xcassets */; };
@@ -72,6 +76,14 @@
 		2E3688DA1B3947D700359000 /* DemoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwoViewController.h; sourceTree = "<group>"; };
 		2E3688DB1B3947D700359000 /* DemoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwoViewController.m; sourceTree = "<group>"; };
 		2E3688DC1B3947D700359000 /* DemoTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTwoViewController.xib; sourceTree = "<group>"; };
+		2E3688DF1B394FFA00359000 /* UIAlertView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utility.h"; sourceTree = "<group>"; };
+		2E3688E01B394FFA00359000 /* UIAlertView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utility.m"; sourceTree = "<group>"; };
+		2E3688E21B39524100359000 /* UITextField+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Utility.h"; sourceTree = "<group>"; };
+		2E3688E31B39524100359000 /* UITextField+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Utility.m"; sourceTree = "<group>"; };
+		2E3688E51B3953A900359000 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		2E3688E61B3953A900359000 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		2E3688E81B3953EE00359000 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		2E3688E91B3953EE00359000 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
 		2E56C6181B29E7EE0002278E /* ArchitectureProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E56C61C1B29E7EE0002278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E56C61D1B29E7EE0002278E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -237,6 +249,14 @@
 			children = (
 				2E3688CF1B3942AE00359000 /* UIScreen+Utility.h */,
 				2E3688D01B3942AE00359000 /* UIScreen+Utility.m */,
+				2E3688DF1B394FFA00359000 /* UIAlertView+Utility.h */,
+				2E3688E01B394FFA00359000 /* UIAlertView+Utility.m */,
+				2E3688E21B39524100359000 /* UITextField+Utility.h */,
+				2E3688E31B39524100359000 /* UITextField+Utility.m */,
+				2E3688E51B3953A900359000 /* UIImage+Utility.h */,
+				2E3688E61B3953A900359000 /* UIImage+Utility.m */,
+				2E3688E81B3953EE00359000 /* UIColor+Utility.h */,
+				2E3688E91B3953EE00359000 /* UIColor+Utility.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -517,10 +537,14 @@
 				2E8248C21B30035F005F63DB /* ApiResponse.m in Sources */,
 				2E56C6211B29E7EE0002278E /* AppDelegate.m in Sources */,
 				2E8248BC1B2FFBA2005F63DB /* ApiService.m in Sources */,
+				2E3688EA1B3953EE00359000 /* UIColor+Utility.m in Sources */,
 				2E35E43C1B2ED116001AC6BD /* SlideMotion+Calculation.m in Sources */,
 				2E3688CB1B39417700359000 /* UINavigationController+CustomNavigationController.m in Sources */,
+				2E3688E11B394FFA00359000 /* UIAlertView+Utility.m in Sources */,
 				2E8248BF1B2FFCDC005F63DB /* ApiRequest.m in Sources */,
+				2E3688E41B39524100359000 /* UITextField+Utility.m in Sources */,
 				2E3688D81B3947BC00359000 /* DemoOneViewController.m in Sources */,
+				2E3688E71B3953A900359000 /* UIImage+Utility.m in Sources */,
 				2E56C64A1B29EB540002278E /* MagicalRecordWorkaround.m in Sources */,
 				2E3688D11B3942AE00359000 /* UIScreen+Utility.m in Sources */,
 				2E35E42E1B2ECFE5001AC6BD /* AutoLayoutView.m in Sources */,
