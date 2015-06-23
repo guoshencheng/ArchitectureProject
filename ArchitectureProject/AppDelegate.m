@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "UIScreen+Utility.h"
 #import "MagicalRecordWorkaround.h"
 #import "CoreData+MagicalRecord.h"
+#import "DemoOneViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self initCoreDataWithMagicalRecord];
+    [self iniWindow];
     return YES;
 }
 
@@ -40,6 +43,8 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
 }
 
+#pragma mark - PrivateMethod
+
 - (void)initCoreDataWithMagicalRecord {
     [MagicalRecord setShouldAutoCreateManagedObjectModel:NO];
     NSURL *modelUrl = [[NSBundle mainBundle] URLForResource:@"ArchitectureProject" withExtension:@"momd"];
@@ -49,5 +54,14 @@
     [MagicalRecordWorkaround setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"ArchitectureProject.sqlite"];
 }
 
+
+- (void)iniWindow {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen bounds]];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[DemoOneViewController create]];
+    navigationController.navigationBarHidden = YES;
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+
+}
 
 @end
