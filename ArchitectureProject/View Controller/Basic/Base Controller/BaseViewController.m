@@ -30,7 +30,7 @@
     hud.userInteractionEnabled = NO;
     hud.removeFromSuperViewOnHide = YES;
     hud.completionBlock = complete;
-    hud.yOffset = 180;
+    hud.yOffset = 0;
     [hud hide:YES afterDelay:1.3];
 }
 
