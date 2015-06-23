@@ -6,10 +6,11 @@
 //  Copyright (c) 2015 guoshencheng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 #import "ApiService.h"
 
-@interface ViewController : UIViewController <ApiServiceDelegate>
+@interface ViewController : BaseViewController <ApiServiceDelegate>
+
 
 
 @end

@@ -20,7 +20,6 @@
 //    label.text = NSLocalizedString(@"author", nil);
 //    [self.view addSubview:label];
     [[ApiService serviceWithDelegate:self] sendJSONRequest:[ApiRequest requestForTestServer]];
-    
 }
 
 - (void)didReceiveMemoryWarning {
