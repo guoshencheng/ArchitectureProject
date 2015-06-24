@@ -27,13 +27,21 @@
 		2E3688E71B3953A900359000 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E61B3953A900359000 /* UIImage+Utility.m */; };
 		2E3688EA1B3953EE00359000 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3688E91B3953EE00359000 /* UIColor+Utility.m */; };
 		2E56C61E1B29E7EE0002278E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C61D1B29E7EE0002278E /* main.m */; };
-		2E56C6211B29E7EE0002278E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6201B29E7EE0002278E /* AppDelegate.m */; };
+		2E56C6211B29E7EE0002278E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6201B29E7EE0002278E /* AppDelegate.mm */; };
 		2E56C62C1B29E7EE0002278E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C62B1B29E7EE0002278E /* Images.xcassets */; };
 		2E56C62F1B29E7EE0002278E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C62D1B29E7EE0002278E /* LaunchScreen.xib */; };
 		2E56C63B1B29E7EF0002278E /* ArchitectureProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C63A1B29E7EF0002278E /* ArchitectureProjectTests.m */; };
 		2E56C6491B29EB540002278E /* ArchitectureProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6451B29EB540002278E /* ArchitectureProject.xcdatamodeld */; };
 		2E56C64A1B29EB540002278E /* MagicalRecordWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6481B29EB540002278E /* MagicalRecordWorkaround.m */; };
 		2E56C6611B29F73F0002278E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C6631B29F73F0002278E /* Localizable.strings */; };
+		2E7DE9A61B3A9BC1003EB40E /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9A51B3A9BC1003EB40E /* BaiduMapAPI.framework */; };
+		2E7DE9A81B3A9F49003EB40E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9A71B3A9F49003EB40E /* CoreLocation.framework */; };
+		2E7DE9AA1B3A9F58003EB40E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9A91B3A9F58003EB40E /* QuartzCore.framework */; };
+		2E7DE9AC1B3A9F62003EB40E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9AB1B3A9F62003EB40E /* OpenGLES.framework */; };
+		2E7DE9AE1B3A9F73003EB40E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9AD1B3A9F73003EB40E /* SystemConfiguration.framework */; };
+		2E7DE9B01B3A9F7C003EB40E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9AF1B3A9F7C003EB40E /* CoreGraphics.framework */; };
+		2E7DE9B21B3A9F85003EB40E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7DE9B11B3A9F85003EB40E /* Security.framework */; };
+		2E7DE9B51B3AA021003EB40E /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E7DE9B41B3AA021003EB40E /* mapapi.bundle */; };
 		2E8248BC1B2FFBA2005F63DB /* ApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8248BB1B2FFBA2005F63DB /* ApiService.m */; };
 		2E8248BF1B2FFCDC005F63DB /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8248BE1B2FFCDC005F63DB /* ApiRequest.m */; };
 		2E8248C21B30035F005F63DB /* ApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8248C11B30035F005F63DB /* ApiResponse.m */; };
@@ -88,7 +96,7 @@
 		2E56C61C1B29E7EE0002278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E56C61D1B29E7EE0002278E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E56C61F1B29E7EE0002278E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E56C6201B29E7EE0002278E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E56C6201B29E7EE0002278E /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		2E56C62B1B29E7EE0002278E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E56C62E1B29E7EE0002278E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2E56C6341B29E7EF0002278E /* ArchitectureProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +107,14 @@
 		2E56C6481B29EB540002278E /* MagicalRecordWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordWorkaround.m; sourceTree = "<group>"; };
 		2E56C6651B29F7580002278E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		2E56C6661B29F8660002278E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E7DE9A51B3A9BC1003EB40E /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI.framework; path = ArchitectureProject/BaiduMapAPI.framework; sourceTree = "<group>"; };
+		2E7DE9A71B3A9F49003EB40E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2E7DE9A91B3A9F58003EB40E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E7DE9AB1B3A9F62003EB40E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2E7DE9AD1B3A9F73003EB40E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2E7DE9AF1B3A9F7C003EB40E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E7DE9B11B3A9F85003EB40E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2E7DE9B41B3AA021003EB40E /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 		2E8248BA1B2FFBA2005F63DB /* ApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiService.h; sourceTree = "<group>"; };
 		2E8248BB1B2FFBA2005F63DB /* ApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiService.m; sourceTree = "<group>"; };
 		2E8248BD1B2FFCDC005F63DB /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
@@ -114,6 +130,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7DE9B21B3A9F85003EB40E /* Security.framework in Frameworks */,
+				2E7DE9B01B3A9F7C003EB40E /* CoreGraphics.framework in Frameworks */,
+				2E7DE9AE1B3A9F73003EB40E /* SystemConfiguration.framework in Frameworks */,
+				2E7DE9AC1B3A9F62003EB40E /* OpenGLES.framework in Frameworks */,
+				2E7DE9AA1B3A9F58003EB40E /* QuartzCore.framework in Frameworks */,
+				2E7DE9A81B3A9F49003EB40E /* CoreLocation.framework in Frameworks */,
+				2E7DE9A61B3A9BC1003EB40E /* BaiduMapAPI.framework in Frameworks */,
 				7CD0E391662C8482F4570FAB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +154,13 @@
 		00375FC36C52CBE6C0161536 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E7DE9B11B3A9F85003EB40E /* Security.framework */,
+				2E7DE9AF1B3A9F7C003EB40E /* CoreGraphics.framework */,
+				2E7DE9AD1B3A9F73003EB40E /* SystemConfiguration.framework */,
+				2E7DE9AB1B3A9F62003EB40E /* OpenGLES.framework */,
+				2E7DE9A91B3A9F58003EB40E /* QuartzCore.framework */,
+				2E7DE9A71B3A9F49003EB40E /* CoreLocation.framework */,
+				2E7DE9A51B3A9BC1003EB40E /* BaiduMapAPI.framework */,
 				4E1B0527948982031AE96D2E /* libPods.a */,
 			);
 			name = Frameworks;
@@ -313,13 +343,14 @@
 		2E56C61A1B29E7EE0002278E /* ArchitectureProject */ = {
 			isa = PBXGroup;
 			children = (
+				2E7DE9B41B3AA021003EB40E /* mapapi.bundle */,
 				2E3688CC1B39425E00359000 /* Tools */,
 				2E1A9A5E1B3264FB00020612 /* View Controllers */,
 				2E8248B91B2FFABA005F63DB /* Web Services */,
 				2E35E4211B2ECEB1001AC6BD /* Custom Views */,
 				2E56C6441B29EB540002278E /* Data Models */,
 				2E56C61F1B29E7EE0002278E /* AppDelegate.h */,
-				2E56C6201B29E7EE0002278E /* AppDelegate.m */,
+				2E56C6201B29E7EE0002278E /* AppDelegate.mm */,
 				2E56C62B1B29E7EE0002278E /* Images.xcassets */,
 				2E56C62D1B29E7EE0002278E /* LaunchScreen.xib */,
 				2E56C61B1B29E7EE0002278E /* Supporting Files */,
@@ -475,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E3688D91B3947BC00359000 /* DemoOneViewController.xib in Resources */,
+				2E7DE9B51B3AA021003EB40E /* mapapi.bundle in Resources */,
 				2E3688C31B3918D300359000 /* Default@2x.png in Resources */,
 				2E3688C71B391DFB00359000 /* Default-736h@2x.png in Resources */,
 				2E3688C61B391DFB00359000 /* Default-667h@2x.png in Resources */,
@@ -535,7 +567,7 @@
 			files = (
 				2E35E42F1B2ECFE5001AC6BD /* UIView+CommonSuperview.m in Sources */,
 				2E8248C21B30035F005F63DB /* ApiResponse.m in Sources */,
-				2E56C6211B29E7EE0002278E /* AppDelegate.m in Sources */,
+				2E56C6211B29E7EE0002278E /* AppDelegate.mm in Sources */,
 				2E8248BC1B2FFBA2005F63DB /* ApiService.m in Sources */,
 				2E3688EA1B3953EE00359000 /* UIColor+Utility.m in Sources */,
 				2E35E43C1B2ED116001AC6BD /* SlideMotion+Calculation.m in Sources */,
@@ -677,6 +709,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArchitectureProject",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -702,6 +738,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArchitectureProject",
+				);
 				INFOPLIST_FILE = ArchitectureProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

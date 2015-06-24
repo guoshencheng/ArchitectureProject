@@ -9,6 +9,7 @@
 #import "DemoOneViewController.h"
 #import "UINavigationController+CustomNavigationController.h"
 #import "DemoTwoViewController.h"
+#import <BaiduMapAPI/BMKMapView.h>
 
 @implementation DemoOneViewController
 
@@ -21,6 +22,8 @@
     //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
     //    label.text = NSLocalizedString(@"author", nil);
     //    [self.view addSubview:label];
+    BMKMapView* mapView = [[BMKMapView alloc]initWithFrame:CGRectMake(0, 0, 320, 480)];
+    self.view = mapView;
     [[ApiService serviceWithDelegate:self] sendJSONRequest:[ApiRequest requestForTestServer]];
     [self toast:@"completecompletecompletecompletecompletecompletecompletecomplete" complete:nil];
 }
